@@ -1,0 +1,13 @@
+# Core dependencies
+pyaudio>=0.2.14
+pytz>=2024.1
+boto3>=1.35.0
+
+# API dependencies
+aiohttp>=3.10.0         # Async HTTP for weather and golf course APIs
+requests>=2.32.0        # Sync HTTP for geolocation API
+
+# AWS SDK for Bedrock Runtime (streaming)
+# Required for Nova Sonic bidirectional streaming
+aws-sdk-bedrock-runtime
+smithy-aws-core

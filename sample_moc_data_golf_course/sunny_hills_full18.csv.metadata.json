@@ -1,0 +1,31 @@
+{
+  "documentStructureConfiguration": {
+    "type": "RECORD_BASED_STRUCTURE_METADATA",
+    "recordBasedStructureMetadata": {
+      "contentFields": [
+        {
+          "fieldName": "Content"
+        }
+      ],
+      "metadataFieldsSpecification": {
+        "fieldsToInclude": [
+          {
+            "fieldName": "CourseName"
+          },
+          {
+            "fieldName": "HoleNumber"
+          },
+          {
+            "fieldName": "Par"
+          },
+          {
+            "fieldName": "Yardage"
+          },
+          {
+            "fieldName": "Handicap"
+          }
+        ]
+      }
+    }
+  }
+}

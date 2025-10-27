@@ -9,5 +9,8 @@ requests>=2.32.0        # Sync HTTP for geolocation API
 
 # AWS SDK for Bedrock Runtime (streaming)
 # Required for Nova Sonic bidirectional streaming
-aws-sdk-bedrock-runtime
-smithy-aws-core
+# Pin versions to ensure compatibility with the identity.environment import path
+aws-sdk-bedrock-runtime==0.1.1
+smithy-aws-core==0.1.1
+smithy-core==0.1.0
+smithy-http==0.2.0
